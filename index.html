@@ -15,36 +15,55 @@
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    <![endif]-->
 
-		<link rel="stylesheet" type="text/css" href="style.css"> <!-- feuille de CSS -->
+		<link rel="stylesheet" type="text/css" href="style.css"> <!-- feuille de CSS -->	
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'> <!-- Police 1 -->
 		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> <!-- Police 2 -->
 	</head>
  
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li><button type="button" class="btn btn-default btn-lg"><a href="#partir">Partir en Corée du Sud</a></button></li>
-					<li><button type="button" class="btn btn-default btn-lg"><a href="#visite">Que visiter ?</a></button></li>
-					<li><button type="button" class="btn btn-default btn-lg"><a href="#gastronomie">Gastronomie</a></button></li>
-					<li><button type="button" class="btn btn-default btn-lg"><a href="#randomn">Randomn</a></button></li>
-					<li><button type="button" class="btn btn-default btn-lg"><a href="#" target="_blank">F.A.Q</a></button></li>
-				</ul>
-			</nav>
-		</header>
 
 
-		<div class="container-fluid">
+	<header>
+
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Bienvenue</a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li><button type="button" class="btn btn-default btn-lg"><a href="#partir" class="button-header">Partir en Corée du Sud</a></button></li>
+				<li><button type="button" class="btn btn-default btn-lg"><a href="#visite" class="button-header">Que visiter ?</a></button></li>
+				<li><button type="button" class="btn btn-default btn-lg"><a href="#gastronomie" class="button-header">Gastronomie</a></button></li>
+				<li><button type="button" class="btn btn-default btn-lg"><a href="#randomn" class="button-header">Randomn</a></button></li>
+				<li><button type="button" class="btn btn-default btn-lg"><a href="#" target="_blank" class="button-header">Le blog</a></button></li>
+		      </ul>
+		      
+		      
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+	</header>
+
+
 		
 		<!-- Titre + photo de background -->
-		
-		<div id="background">
-			<section>
-				<h1>Découvrez la Corée du Sud</h1>
-			</section>
-		</div>
-		
 
+		<div class="container-fluid">
+			<div id="background">
+				<section>
+					<h1>Découvrez la Corée du Sud</h1>
+				</section>
+			</div>
 		</div>
 
 		<!-- Section 1 : Partir en CDS -->
@@ -54,8 +73,6 @@
 			<section class="light-grey">		
 				<div class="row">
 
-
-					
 					<div class="col-md-4 partir1">
 						<h2 class="section-1" id="partir">Partir en Corée du Sud</h2>
 						<p>Située en Asie, la Corée du Sud fait partie du club des 4 dragons asiatiques. Depuis 1960, elle a connu une forte croissance économique.</p>
@@ -64,11 +81,9 @@
 					</div> <!-- Close col -->
 
 
-					<div class="col-md-4 partir1">
-						
+					<div class="col-md-4 partir1">						
 						<p>Les occasions de découvrir ce pays sont nombreuses : vacances, échange universitaire, PVT ou encore expatriation.</p>
 						<p>Dans cette rubrique, vous allez découvrir les aspects de la vie en Corée du Sud, les démarches à effectuer pour s'y installer ou encore les astuces à connaître lorsque l'on voyage en Corée du Sud.</p>
-
 						<p><a href="#" class="lien-art">&gt; Lire les articles</a></p>
 					</div> <!-- Close col -->
 
@@ -81,7 +96,6 @@
 
 				</div> <!-- Close row -->
 			</section>
-
 		</div>
 
 
@@ -89,11 +103,9 @@
 		<!-- Section 2 : Que visiter -->
 
 		<div class="container-fluid">
-
 			<section class="dark-grey">
-
 				<div class="row">
-				
+
 					<div class="col-md-4">
 						<img src="images/palais.jpg" class="picture1" />
 					</div> <!-- Close col -->
@@ -113,16 +125,15 @@
 
 				</div> <!-- Close row -->
 			</section>
-
 		</div>
 
 
 		<!-- Section 3 : Gastronomie -->
 
 		<div class="container-fluid">
-
 			<section class="light-grey">
 				<div class="row">
+
 					<div class="col-md-4 partir1">
 						<h2 class="section-1" id="gastronomie">La gastronomie</h2>
 						<p>Pour les Français, la gastronomie coréenne est très surprenante. Rien de similaire avec ce qui se cuisine en France.</p>
@@ -142,16 +153,15 @@
 
 				</div> <!-- Close row -->
 			</section>
-
 		</div>
 
 
 		<!-- Section 4 : Randomn -->
 
 		<div class="container-fluid">
-
 			<section class="dark-grey">
 				<div class="row">
+
 					<div class="col-md-4">
 						<img src="images/festival-lanterne.jpg" class="picture1" />
 					</div> <!-- Close col -->
@@ -170,19 +180,105 @@
 					</div> <!-- Close col -->
 
 				</div> <!-- Close row -->
-				
 			</section>
-
 		</div>
+
+		<hr>
+
+		
+
+		<!-- Caroussel -->
+
+
+
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+		  <!-- Indicators -->
+			<ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+			</ol>
+
+		  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+			    <div class="item active">
+			      <img src="images/caroussel/festival-lanternesv2.jpg" alt="Festival des lanternes">
+			      <div class="carousel-caption">
+			        <h3>Festival des lanternes à Séoul</h3>
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <img src="images/caroussel/dongdaemunv2.jpg" alt="Musée de design à Dongdaemun">
+			      <div class="carousel-caption">
+			        <h3>Dongdaemun Design Plaza</h3>
+			      </div>
+			    </div>
+			    
+			    <div class="item">
+			      <img src="images/caroussel/pajunv2.jpg" alt="Pajun, le pancake coréen">
+			      <div class="carousel-caption">
+			        <h3>Pajun, le pancake coréen</h3>
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <img src="images/caroussel/seoul-de-nuitv2.jpg" alt="Vue de Séoul de nuit">
+			      <div class="carousel-caption">
+			        <h3>Vue de Séoul depuis la N Seoul Tower</h3>
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <img src="images/caroussel/streamv2.jpg" alt="Cheonggyecheon Stream">
+			      <div class="carousel-caption">
+			        <h3>Cheonggyecheon Stream</h3>
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <img src="images/caroussel/cherry-blossomv2.jpg" alt="Cherry blossom">
+			      <div class="carousel-caption">
+			        <h3>Floraison des cerisiers</h3>
+			      </div>
+			    </div>
+
+
+			     <div class="item">
+			      <img src="images/caroussel/jajangmyeonv2.jpg" alt="Jajangmyeon">
+			      <div class="carousel-caption">
+			        <h3>Jajangmyeon</h3>
+			     </div>
+			    </div>
+
+			  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+
+		<hr>
 
 
 		<!-- Section : Bas de page -->
 
 
 		<div class="container-fluid">
-
 			<section>
 				<div class="row">
+
 					<div class="col-md-5 col-md-offset-1 border position-center1">
 						<h2 class="high-txt">Qui suis-je ?</h2>
 						<p class="center-vertical">Etudiante en école de commerce, j'ai eu l'occasion de partir étudier un semestre en Corée du Sud. Je suis revenue avec l'envie de faire découvrir ce pays et de partager mon expérience avec ceux qui envisagent de partir là-bas.</p>
@@ -190,28 +286,65 @@
 
 					<div class="col-md-5 border center position-center2">
 						<h2 class="low-txt high-txt">Suivez l'actu du blog sur les réseaux sociaux</h2>
-						<p>
-							<ul>
-								<li><a href="https://www.facebook.com" title="Suivez-nous sur Facebook" target="_blank"><img src="images/logo-fb-v2.jpg" class="social-network" /></a></li>
-								<li><a href="https://twitter.com" title="Suivez-nous sur Twitter" target="_blank"><img src="images/logo-twitter-v2.png" class="social-network" /></a></li>
-								<li><a href="https://www.instagram.com" title="Suivez-nous sur Instagram" target="_blank"><img src="images/logo-instagram-v2.jpg" class="social-network" /></a></li>
-							</ul>
-						</p>
+						<ul>
+							<li><a href="https://www.facebook.com" title="Suivez-nous sur Facebook" target="_blank"><img src="images/logo-fb-v2.jpg" class="social-network" /></a></li>
+							<li><a href="https://twitter.com" title="Suivez-nous sur Twitter" target="_blank"><img src="images/logo-twitter-v2.png" class="social-network" /></a></li>
+							<li><a href="https://www.instagram.com" title="Suivez-nous sur Instagram" target="_blank"><img src="images/logo-instagram-v2.jpg" class="social-network" /></a></li>
+						</ul>
 					</div> <!-- Close col -->
+
 				</div> <!-- Close row -->
 			</section>
-
 		</div> <!-- Close container -->
+
+
+		<hr>
 
 		<!-- Footer -->
 
-<footer>
-	<nav>
-		<ul>
-			<li><a href="mentions-legales.pdf" title="Téléchargez les mentions légales" target="_blank">Mentions légales</a></li>
-			<li><a href="#">Blog</a></li>
-		</ul>
-	</nav>
+
+	<footer>
+
+	<div class="container-fluid">
+
+		<div class="row">
+			<div class="col-md-3 col-md-offset-3">
+				<h2 class="high-txt"><button type="button" class="btn btn-default btn-lg"><a href="mentions-legales.pdf" title="Téléchargez les mentions légales" target="_blank">Mentions légales</a></button></h2>
+			</div>	<!-- Close col -->
+
+			<div class="col-md-3">
+				<button class="btn btn-default button-footer" data-toggle="modal" data-target="#myModal">
+				F.A.Q
+				</button>
+
+				<!-- Modal displayed when a user clicks on the upper button -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				        <h4 class="modal-title" id="myModalLabel">Questions fréquentes :</h4>
+				      </div>
+				      <div class="modal-body">
+				      	<h3>As-tu déjà voyagé en Corée du Sud ?</h3>
+				      	<p class="faq">Oui, je suis partie un semestre en échange universitaire à Kookmin University à Séoul en 2014.</p>
+				      	<h3>Pourquoi ce site/blog ?</h3>
+				      	<p class="faq">Au départ, c'est un projet scolaire. Comme j'aime parler de la Corée du Sud, j'ai décidé de le continuer.</p>
+				      	<h3>Prévois-tu de retourner en Corée du Sud ?</h3>
+				      	<p class="faq">Je pense chercher un VIE en Asie ou partir en PVT à la fin de mes études. La Corée fait partie de mon top des pays dans lesquels j'aimerais partir.</p>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>	<!-- Close col -->
+
+		</div>
+	</div>
+
+
 </footer>
 
 	<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
