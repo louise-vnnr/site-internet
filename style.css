@@ -37,16 +37,17 @@ header a:hover {
 }
 
 footer button:hover {
-	font-size: 1em;
+	font-size: 15px;
 	text-decoration:none;
 	color: #3F353C;
 }
 
-footer a:hover {
-	font-size: 1em;
+footer button a:hover {
+	font-size: 15px;
 	text-decoration:none;
 	color: #3F353C;
 }
+
 
 
 nav li {
@@ -220,6 +221,8 @@ a.navbar-brand {
 .carousel-inner>.item>img {
 	margin: 0 auto;
 }
+
+
 
 
 /* ID */
