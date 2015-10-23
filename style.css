@@ -249,6 +249,7 @@ a.navbar-brand {
   h2 {
     font-size: 20px;
     margin-top: 5px;
+    margin-bottom:10px;
   }
 
   p {
@@ -307,11 +308,15 @@ a.navbar-brand {
 	padding-left: 0px;
 }
 
+.col-md-3-bis {
+	padding-bottom: 10px;
+}
+
 
 }
 
 
-@media (min-width:601px) and (max-width:800px) {  /*tablette*/
+@media (min-width:601px) and (max-width:1226px) {  /*tablette*/
   h1 {
     font-size: 45px;
   }
@@ -319,6 +324,7 @@ a.navbar-brand {
   h2 {
     font-size: 30px;
     margin-top: 5px;
+    margin-bottom:10px;
   }
 
   p {
@@ -384,6 +390,10 @@ nav li {
 
 .button-header {
     font-size: 20px;
+}
+
+.col-md-3-bis {
+	padding-bottom: 10px;
 }
 
 
